@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffffcc;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.singup-header {
+    font-size: 0.9rem;
+    color: #555;
+
+}
+
+.singup-body {
+    margin: 20px 0;
+}
+
+.singup-body p {
+    margin: 10px 0;
+}
+.singup-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.singup-body p input {
+    width: 100%;
+    padding: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.singup-body p input[type="submit"] {
+    background-color: #3498bd;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.singup-body p input[type="submit"]:hover {
+    background-color: #2b85a5;
+}
+
+.singup-footer p {
+    color: #555;
+    text-align: center;
+
+}
+
+.singup-footer p a {
+    color: #2b85a5;
+}
